@@ -87,6 +87,7 @@ public class PrimeFaces {
     }
 
     protected FacesContext getFacesContext() {
+        System.out.println("context");
         return FacesContext.getCurrentInstance();
     }
 
